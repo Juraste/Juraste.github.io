@@ -1,0 +1,104 @@
+
+
+[   
+      
+  {
+  "tag" : "artificial intelligence",
+  "posts" : [
+      
+      "./deep-q-learning-tic-tac-toe.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "coding",
+  "posts" : [
+      
+      "./deep-q-learning-tic-tac-toe.html",
+      
+      "./neural-network-optimization-methods.html",
+      
+      "./ML-Library-from-scratch.html",
+      
+      "./conways-game-of-life.html",
+      
+      "./single-neuron-perceptron.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "deep Neural networks",
+  "posts" : [
+      
+      "./neural-network-optimization-methods.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "machine learning",
+  "posts" : [
+      
+      "./deep-q-learning-tic-tac-toe.html",
+      
+      "./neural-network-optimization-methods.html",
+      
+      "./ML-Library-from-scratch.html",
+      
+      "./single-neuron-perceptron.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "neural networks",
+  "posts" : [
+      
+      "./ML-Library-from-scratch.html",
+      
+      "./single-neuron-perceptron.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "optimization",
+  "posts" : [
+      
+      "./neural-network-optimization-methods.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "python",
+  "posts" : [
+      
+      "./deep-q-learning-tic-tac-toe.html",
+      
+      "./ML-Library-from-scratch.html",
+      
+      "./conways-game-of-life.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "reinforcement learning",
+  "posts" : [
+      
+      "./deep-q-learning-tic-tac-toe.html"
+      
+    ]
+  } 
+    
+]
