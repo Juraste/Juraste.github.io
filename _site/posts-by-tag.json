@@ -22,9 +22,7 @@
       
       "./ML-Library-from-scratch.html",
       
-      "./conways-game-of-life.html",
-      
-      "./single-neuron-perceptron.html"
+      "./conways-game-of-life.html"
       
     ]
   } ,
@@ -48,9 +46,7 @@
       
       "./neural-network-optimization-methods.html",
       
-      "./ML-Library-from-scratch.html",
-      
-      "./single-neuron-perceptron.html"
+      "./ML-Library-from-scratch.html"
       
     ]
   } ,
@@ -60,9 +56,7 @@
   "tag" : "neural networks",
   "posts" : [
       
-      "./ML-Library-from-scratch.html",
-      
-      "./single-neuron-perceptron.html"
+      "./ML-Library-from-scratch.html"
       
     ]
   } ,
@@ -73,6 +67,16 @@
   "posts" : [
       
       "./neural-network-optimization-methods.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "predict",
+  "posts" : [
+      
+      "./recent-progress-and-trends-in-predictive-visual-analytics.html"
       
     ]
   } ,
@@ -97,6 +101,16 @@
   "posts" : [
       
       "./deep-q-learning-tic-tac-toe.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "visual analytics",
+  "posts" : [
+      
+      "./recent-progress-and-trends-in-predictive-visual-analytics.html"
       
     ]
   } 

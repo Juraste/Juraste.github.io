@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-01-06T19:51:52+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Juraste’s Blog</title><subtitle>朱琳的个人主页</subtitle><author><name>朱 琳</name></author><entry><title type="html">Deep Q Learning for Tic Tac Toe</title><link href="http://localhost:4000/deep-q-learning-tic-tac-toe.html" rel="alternate" type="text/html" title="Deep Q Learning for Tic Tac Toe" /><published>2021-03-19T05:14:20+08:00</published><updated>2021-03-19T05:14:20+08:00</updated><id>http://localhost:4000/deep-q-learning-tic-tac-toe</id><content type="html" xml:base="http://localhost:4000/deep-q-learning-tic-tac-toe.html"><![CDATA[<center><img style="float: left;margin-right: 1em;" src="./assets/img/posts/20210318/Game_Screen.png" width="310" height="300" /></center>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-01-06T20:03:38+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Juraste’s Blog</title><subtitle>朱琳的个人主页</subtitle><author><name>朱 琳</name></author><entry><title type="html">【阅读】Recent progress and trends in predictive visual analytics</title><link href="http://localhost:4000/recent-progress-and-trends-in-predictive-visual-analytics.html" rel="alternate" type="text/html" title="【阅读】Recent progress and trends in predictive visual analytics" /><published>2021-08-16T00:00:00+08:00</published><updated>2021-08-16T00:00:00+08:00</updated><id>http://localhost:4000/recent-progress-and-trends-in-predictive-visual-analytics</id><content type="html" xml:base="http://localhost:4000/recent-progress-and-trends-in-predictive-visual-analytics.html"><![CDATA[<center><img src="./assets/img/posts/20210816/Untitled.png" width="540" /></center>
+<p><br /></p>
+
+<p>评估相似样本中可能发生类似的趋势、模式或行为的可能性</p>
+
+<p>视觉分析：结合自动分析，以人为中心</p>
+
+<center><img src="./assets/img/posts/20210816/Untitled-2.png" width="540" /></center>
+<p><br /></p>
+
+<h2 id="数据预处理-data-pre-processing">数据预处理 Data pre-processing</h2>
+
+<p>关键步骤：确保数据的完整性和准确性</p>
+
+<p>可视化可以帮助人们识别出一些明显的问题数据，比如预测给定社区犯罪发生的可能性，根据 以往的犯罪数据，将犯罪地点进行可视化，在地图中可以明显发现一些异常错误数据，如 0 维度和 0 经度的地点。</p>
+
+<p>步骤：</p>
+
+<h3 id="数据清洗">数据清洗</h3>
+
+<p>数据量的大量增长会导致处理数据的成本增加。目前没有一种方法能够适合所有数据清洗方法。缺少值、拼写错误、缩写词等都是现存的问题。数据清洗的目的就是去尽可能识别并消除异常。但目前有六种主要的数据形式（表格、时间序列、时空等），但是对于每一种数据，寻找错误可能要求一种或者多种可视化方法。比如时间序列数据，可能存在日期不匹配的情况（12-1-2012 和 12 月 1 日，2012）。</p>
+
+<h3 id="数据转换">数据转换</h3>
+
+<p>一些研究提出通过自动数据重新格式化、提取、转换等方式将一个数据元素转换为另一个数据元素，从而可以识别出一个可以自动查找和纠正脏数据的规则。现有的研究主要致力于文本的提取和转换，但这些不能处理数据缺失或者错误输入的问题。</p>
+
+<h3 id="数据集成和融合">数据集成和融合</h3>
+
+<p>基于阶段的融合：将松散的数据耦合/集成</p>
+
+<p>基于特征级别的融合：数据特征跨数据集提取和合并</p>
+
+<p>基于语义的融合：在融合阶段使用关于特征的先验知识</p>
+
+<h2 id="特征选择和生成-feature-selection-and-generation">特征选择和生成 Feature selection and generation</h2>
+
+<p>选择合适的特征（数据属性）去构建模型，其中特征要捕获数据中最具代表性的方面。如果没有合适的选择，冗余和非描述性特征会导致意料之外的训练结果和差劲的预测。</p>
+
+<p>特征选择尝试去选择特征的最小子集：不显著降低分类的准确性；必须匹配（尽可能接近）所有给定特征的原始分布。</p>
+
+<p>理想的特征选择将搜索所有特征的子集。</p>
+
+<p>删除冗余特征以方便用户选择显著特征。</p>
+
+<h2 id="模型训练选择和验证-model-training-selection-and-validation">模型训练、选择和验证 Model training, selection and validation</h2>
+
+<p>在特征选择，一项关键任务是识别模型训练中应使用的冗余最少的最显著特征。</p>
+
+<p>模型验证的两个关键策略：模型（参数）的比较；识别有问题的特征和样本。</p>]]></content><author><name>Juraste</name></author><category term="visual analytics" /><category term="predict" /><summary type="html"><![CDATA[Single neuron perceptron that classifies elements learning quite quickly.]]></summary></entry><entry><title type="html">Deep Q Learning for Tic Tac Toe</title><link href="http://localhost:4000/deep-q-learning-tic-tac-toe.html" rel="alternate" type="text/html" title="Deep Q Learning for Tic Tac Toe" /><published>2021-03-19T05:14:20+08:00</published><updated>2021-03-19T05:14:20+08:00</updated><id>http://localhost:4000/deep-q-learning-tic-tac-toe</id><content type="html" xml:base="http://localhost:4000/deep-q-learning-tic-tac-toe.html"><![CDATA[<center><img style="float: left;margin-right: 1em;" src="./assets/img/posts/20210318/Game_Screen.png" width="310" height="300" /></center>
 
 <h2 id="background">Background</h2>
 <p>After many years of a corporate career (17) diverging from computer science, I have now decided to learn Machine Learning and in the process return to coding (something I have always loved!).</p>
@@ -7592,123 +7640,4 @@ qXRvbwAAAB1kYXRhAAAAAQAAAABMYXZmNTguNDUuMTAw
 
 <p>Notice that since I am keeping an array of the coordinates of only the cells who are alive, I could apply just 3 rules, die of loneliness, die of overpopulation and become alive from reproduction (exactly 3 alive neighbors) because the ones who have 2 or 3 neighbors and are already alive, can remain alive in the next iteration.</p>
 
-<p>I&nbsp;found it very interesting to implement the Game of Life like this, it was quite a refreshing challenge and I am beginning to feel my coding skills ramping up again.</p>]]></content><author><name>Armando Maynez</name></author><category term="coding" /><category term="python" /><summary type="html"><![CDATA[Taking on the challenge of picking up coding again through interesting small projects, this time it is the turn of Conway's Game of Life.]]></summary></entry><entry><title type="html">test1</title><link href="http://localhost:4000/single-neuron-perceptron.html" rel="alternate" type="text/html" title="test1" /><published>2021-01-26T03:32:20+08:00</published><updated>2021-01-26T03:32:20+08:00</updated><id>http://localhost:4000/single-neuron-perceptron</id><content type="html" xml:base="http://localhost:4000/single-neuron-perceptron.html"><![CDATA[<p>As an entry point to learning python and getting into Machine Learning, I decided to code from scratch the Hello World! of the field, a single neuron perceptron.</p>
-
-<h2 id="what-is-a-perceptron">What is a perceptron?</h2>
-
-<p>A perceptron is the basic building block of a neural network, it can be compared to a neuron, And its conception is what detonated the vast field of Artificial Intelligence nowadays.</p>
-
-<p>Back in the late 1950’s, a young <a href="https://en.wikipedia.org/wiki/Frank_Rosenblatt">Frank Rosenblatt</a> devised a very simple algorithm as a foundation to construct a machine that could learn to perform different tasks.</p>
-
-<p>In its essence, a perceptron is nothing more than a collection of values and rules for passing information through them, but in its simplicity lies its power.</p>
-
-<center><img src="./assets/img/posts/20210125/Perceptron.png" /></center>
-
-<p>Imagine you have a ‘neuron’ and to ‘activate’ it, you pass through several input signals, each signal connects to the neuron through a synapse, once the signal is aggregated in the perceptron, it is then passed on to one or as many outputs as defined. A perceptron is but a neuron and its collection of synapses to get a signal into it and to modify a signal to pass on.</p>
-
-<p>In more mathematical terms, a perceptron is an array of values (let’s call them weights), and the rules to apply such values to an input signal.</p>
-
-<p>For instance a perceptron could get 3 different inputs as in the image, lets pretend that the inputs it receives as signal are: $x_1 = 1, \; x_2 = 2\; and \; x_3 = 3$, if it’s weights are $w_1 = 0.5,\; w_2 = 1\; and \; w_3 = -1$ respectively, then what the perceptron will do when the signal is received is to multiply each input value by its corresponding weight, then add them up.</p>
-
-<p style="text-align:center">\(<br />
-\begin{align}
-\begin{split}
-\left(x_1 * w_1\right) + \left(x_2 * w_2\right) + \left(x_3 * w_3\right)
-\end{split}
-\end{align}
-\)</p>
-
-<p style="text-align:center">\(<br />
-\begin{align}<br />
-\begin{split}<br />
-\left(0.5 * 1\right) + \left(1 * 2\right) + \left(-1 * 3\right) = 0.5 + 2 - 3 = -0.5
-\end{split}<br />
-\end{align}<br />
-\)</p>
-
-<p>Typically when this value is obtained, we need to apply an “activation” function to smooth the output, but let’s say that our activation function is linear, meaning that we keep the value as it is, then that’s it, that is the output of the perceptron, -0.5.</p>
-
-<p>In a practical application, the output means something, perhaps we want our perceptron to classify a set of data and if the perceptron outputs a negative number, then we know the data is of type A, and if it is a positive number then it is of type B.</p>
-
-<p>Once we understand this, the magic starts to happen through a process called backpropagation, where we “educate” our tiny one neuron brain to have it learn how to do its job.</p>
-
-<tweet>The magic starts to happen through a process called backpropagation, where we "educate" our tiny one neuron brain to have it learn how to do its job.</tweet>
-
-<p>For this we need a set of data that it is already classified, we call this a training set. This data has inputs and their corresponding correct output. So we can tell the little brain when it misses in its prediction, and by doing so, we also adjust the weights a bit in the direction where we know the perceptron committed the mistake hoping that after many iterations like this the weights will be so that most of the predictions will be correct.</p>
-
-<p>After the model trains successfully we can have it classify data it has never seen before, and we have a fairly high confidence that it will do so correctly.</p>
-
-<p>The math behind this magical property of the perceptron is called gradient descent, and is just a bit of differential calculus that helps us convert the error the brain is having into tiny nudges of value of the weights towards their optimum. <a href="https://www.youtube.com/watch?v=aircAruvnKk&amp;list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi">This video series by 3 blue 1 brown explains it wonderfuly.</a></p>
-
-<p>My program creates a single neuron neural network tuned to guess if a point is above or below a randomly generated line and generates a visualization based on graphs to see how the neural network is learning through time.</p>
-
-<p>The neuron has 3 inputs and weights to calculate its output:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>input 1 is the X coordinate of the point,
-Input 2 is the y coordinate of the point,
-Input 3 is the bias and it is always 1
-
-Input 3 or the bias is required for lines that do not cross the origin (0,0)
-</code></pre></div></div>
-
-<p>The Perceptron starts with weights all set to zero and learns by using 1,000 random points per each iteration.</p>
-
-<p>The output of the perceptron is calculated with the following activation function:
-if x * weight_x + y weight_y + weight_bias is positive then 1 else 0</p>
-
-<p>The error for each point is calculated as the expected outcome of the perceptron minus the real outcome therefore there are only 3 possible error values:</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">Expected</th>
-      <th style="text-align: center">Calculated</th>
-      <th style="text-align: center">Error</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">1</td>
-      <td style="text-align: center">-1</td>
-      <td style="text-align: center">1</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">1</td>
-      <td style="text-align: center">1</td>
-      <td style="text-align: center">0</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-1</td>
-      <td style="text-align: center">-1</td>
-      <td style="text-align: center">0</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-1</td>
-      <td style="text-align: center">1</td>
-      <td style="text-align: center">-1</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>With every point that is learned if the error is not 0 the weights are adjusted according to:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>New_weight = Old_weight + error * input * learning_rate
-for example: New_weight_x = Old_weight_x + error * x * learning rate
-</code></pre></div></div>
-
-<p>A very useful parameter in all of neural networks is teh learning rate, which is basically a measure on how tiny our nudge to the weights is going to be.</p>
-
-<p>In this particular case, I coded the learning_rate to decrease with every iteration as follows:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>learning_rate = 0.01 / (iteration + 1)
-</code></pre></div></div>
-
-<p>this is important to ensure that once the weights are nearing the optimal values the adjustment in each iteration is subsequently more subtle.</p>
-
-<center><img src="./assets/img/posts/20210125/Learning_1000_points_per_iteration.jpg" /></center>
-
-<p>In the end, the perceptron always converges into a solution and finds with great precision the line we are looking for.</p>
-
-<p>Perceptrons are quite a revelation in that they can resolve equations by learning, however they are very limited. By their nature they can only resolve linear equations, so their problem space is quite narrow.</p>
-
-<p>Nowadays the neural networks consist of combinations of many perceptrons, in many layers, and other types of “neurons”, like convolution, recurrent, etc. increasing significantly the types of problems they solve.</p>]]></content><author><name>Armando Maynez</name></author><category term="machine learning" /><category term="coding" /><category term="neural networks" /><summary type="html"><![CDATA[Single neuron perceptron that classifies elements learning quite quickly.]]></summary></entry></feed>
+<p>I&nbsp;found it very interesting to implement the Game of Life like this, it was quite a refreshing challenge and I am beginning to feel my coding skills ramping up again.</p>]]></content><author><name>Armando Maynez</name></author><category term="coding" /><category term="python" /><summary type="html"><![CDATA[Taking on the challenge of picking up coding again through interesting small projects, this time it is the turn of Conway's Game of Life.]]></summary></entry></feed>
