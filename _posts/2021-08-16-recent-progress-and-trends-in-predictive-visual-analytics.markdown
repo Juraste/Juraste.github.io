@@ -2,9 +2,8 @@
 layout: post
 read_time: true
 show_date: true
-title: 【阅读】Recent progress and trends in predictive visual analytics
+title: [Reading]Recent progress and trends in predictive visual analytics
 date: 2021-08-16
-description: Single neuron perceptron that classifies elements learning quite quickly.
 img: posts/20210816/ask1.jpeg
 tags: [visual analytics, predict]
 author: Juraste

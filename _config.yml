@@ -1,12 +1,12 @@
 # Site settings
 title: Juraste's Blog
-description: "朱琳的个人主页" # this means to ignore newlines until "baseurl:"
-permalink: ":title:output_ext"
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://Juraste.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/assets/img/branding/logo-full.svg"
-logo-icon: "/assets/img/branding/MVM-symbol.svg"
-logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # must be a non SVG file
+description: '朱琳的个人主页' # this means to ignore newlines until "baseurl:"
+permalink: ':title:output_ext'
+baseurl: '/' # the subpath of your site, e.g. /blog
+url: 'https://Juraste.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+logo: '/assets/img/branding/logo-full.svg'
+logo-icon: '/assets/img/branding/MVM-symbol.svg'
+logo-icon-SEO: '/assets/img/branding/MVM-symbol-black.png' # must be a non SVG file
 
 # Night/Dark mode
 # Default mode is "auto", "auto" is for auto nightshift
@@ -18,23 +18,16 @@ logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # must be a non SVG f
 # visit (session). Only the dark mode setting is "manual",
 # it will be always kept on every visit (i.e. no matter
 # the browser is closed or not)
-night_mode: "auto"
+night_mode: 'auto'
 
-logo-dark: "/assets/img/branding/logo-full-dark.svg"
+logo-dark: '/assets/img/branding/logo-full-dark.svg'
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings
 author: 朱 琳 # add your name
 author-sub: Juraste
 author-pic: githead.png
-about-author: "浙江大学软件工程专业研一在读, CAD&CG国家重点实验室VAI小组。本科期间专业绩点排名第一(1/51),
-北京工商大学校优秀毕业生、优秀学生干部、三好学生。<br/>
-  <ul>
-  <li>连续三年获优秀学生奖学金，获得北京工商大学毕业生一等奖学金、竞赛单项一等奖学金</li>
-  <li>全国第十三届中国大学生计算机设计大赛二等奖</li>
-  <li>全国第十一届蓝桥杯程序设计竞赛三等奖</li>
-  </ul>
-  "
+about-author: '浙江大学软件工程专业研二在读, CAD&CG国家重点实验室VAI小组。'
 
 # Contact links
 email: juraste532@163.com # Add your Email address
@@ -42,12 +35,12 @@ phone: # Add your Phone number
 website: https://Juraste.github.io # Add your website
 linkedin: Juraste # Add your Linkedin handle
 github: https://github.com/Juraste # Add your Github handle
-twitter: "@MvmThe" # Add your Twitter handle
+twitter: '@MvmThe' # Add your Twitter handle
 bandcamp: armandomaynez # Add your Bandcamp username
 stackoverflow: stackoverflow # Add your stackoverflow account
 
 # Newsletter
-mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
+mailchimp: 'https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4'
 
 # Disqus
 discus_identifier: amaynez-github-io # Add your discus identifier
@@ -59,7 +52,7 @@ fbadmin: ar.maybach
 
 # Paginate
 paginate: 6
-paginate_path: "page:num"
+paginate_path: 'page:num'
 words_per_minute: 200
 
 # Build settings
@@ -89,10 +82,10 @@ plugins:
 include: [_pages]
 exclude:
   [
-    "node_modules",
-    "gulpfile.js",
-    "package.json",
-    "yarn.lock",
-    "package-lock.json",
-    "assets/css/sass/",
+    'node_modules',
+    'gulpfile.js',
+    'package.json',
+    'yarn.lock',
+    'package-lock.json',
+    'assets/css/sass/',
   ]
