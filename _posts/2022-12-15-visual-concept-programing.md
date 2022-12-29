@@ -6,6 +6,8 @@ title: [Reading] Visual Concept Programming: A Visual Analytics Approach to Inje
 date: 2022-12-15
 img: posts/visualConceptProgramming/p8.png
 tags: [Visual concept programming, data-centric AI, data programming, self-supervised learning, semantic segmentation]
+author: Juraste
+mathjax: yes
 ---
 
 ## Abstract
@@ -36,10 +38,6 @@ tags: [Visual concept programming, data-centric AI, data programming, self-super
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前，数据编程被证明在 NLP 领域是有效的(eg.情感预测的 NLP 任务)。在这个情境中，通过在句子中搜索具有积极性质的词汇的标记函数，将一个句子标记为是否具有积极情感。同样的，许多其他的函数可以被定义并被应用于大型的语料库。
 
 <center><img src="./assets/img/posts/../../../../assets/img/posts/visualConceptProgramming/p2.png" width="480px"></center>
-
-To call it a Machine Learning Library is perhaps a bit of a stretch, since I just intended to create a **multi-neuron, multi-layered [perceptron](./single-neuron-perceptron.html)**.
-
-<center><img src="./assets/img/posts/20210228/nnet_flow.gif"></center>
 
 ---
 
