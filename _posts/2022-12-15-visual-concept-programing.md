@@ -4,10 +4,11 @@ read_time: true
 show_date: true
 title: [Reading] Visual Concept Programming: A Visual Analytics Approach to Injecting Human Intelligence at Scale
 date: 2022-12-15
+description:  A Visual Analytics Approach to Injecting Human Intelligence at Scale.
 img: posts/visualConceptProgramming/p8.png
 tags: [Visual concept programming, data-centric AI, data programming, self-supervised learning, semantic segmentation]
 author: Juraste
-mathjax: yes
+github: Juraste/
 ---
 
 ## Abstract

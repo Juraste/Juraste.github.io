@@ -4,10 +4,11 @@ read_time: true
 show_date: true
 title: [Reading]Recent progress and trends in predictive visual analytics
 date: 2021-08-16
+description:  Recent progress and trends in predictive visual analytics.
 img: posts/20210816/ask1.jpeg
 tags: [visual analytics, predict]
 author: Juraste
-mathjax: yes
+github: Juraste/
 ---
 
 <center><img src='./assets/img/posts/20210816/Untitled.png' width="540"></center><br>
