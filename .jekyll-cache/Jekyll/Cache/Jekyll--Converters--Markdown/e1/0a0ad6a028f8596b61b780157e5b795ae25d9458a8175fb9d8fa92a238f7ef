@@ -1,0 +1,44 @@
+I"�<div style="border-left:0.5em solid #f0efed;padding:10px">
+ <span style="font-size:1.2em;font-weight:bolder">技术栈：</span>
+ <span>C#, .NET框架, WebService, SQL, Echarts</span>
+ <p style="font-size:1.2em;font-weight:bolder;margin-block-end:0.5em;margin-block-start:0.5em">工作内容：</p>
+<ul style="font-size:1em;margin-block-end:0.5em;margin-block-start:0.5em"><li> 系统设计，包括技术路线和系统整体设计</li>
+    <li> 前端设计，包括前端页面的ui开发和逻辑开发</li>
+    <li> WebService更新数据的方法编写</li>
+    <li> 数据库设计与数据处理</li></ul>
+</div>
+
+<h2 id="项目设计">项目设计</h2>
+
+<p><img src="./assets/img/posts/../../../../assets/img/posts/agricultureProducts/农产品1.png" /><small>系统登录界面（首页，右侧为轮播图）</small></p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;项目分为面向用户的信息可视化展示系统以及面向管理者的后台信息管理系统.</p>
+
+<h3 id="1-信息可视化系统">1. 信息可视化系统</h3>
+
+<p><img src="./assets/img/posts/../../../../assets/img/posts/agricultureProducts/农产品设计思路1.png" alt="可视化系统设计路线" /><small>可视化系统设计路线</small></p>
+
+<p>&nbsp; &nbsp;&nbsp; &nbsp;可视化系统的信息展示分为两大块内容，一为农产品的基础信息，包括所属分类、营养信息以及与其它农产品的相克相配情况（即是否适宜搭配在一起食用）；二为农产品的农药残留信息，包括农产品的农药残留量分布，某地区某农产品农药残留量检测值详细信息，以及农产品农药毒性分布，其中包括全部农药和指定类农药的毒性分布数据对比等，还对某一农产品中残留的所有农药溶解度的整体情况进行分析,为用户提供农产品的清洗建议，该部分中所有数据均来源于学校实验室，检测数据由项目合作单位中国检验检疫科学研究院提供，保证了数据的科学性和真实性。</p>
+
+<p><img src="./assets/img/posts/../../../../assets/img/posts/agricultureProducts/农产品6.png" alt="可视信息界面首页" /><small>可视信息界面首页</small></p>
+
+<p>&nbsp; &nbsp;&nbsp; &nbsp;<b>首页</b>展示关于农药残留的三个主要可视化概览图。右侧地图展示全部测试样品在全国的分布情况，点击省份可进入省级地图，并且设置地图上下行，双击可以返回全国地图。字云图显示的是所有测试记录中出现频数最高的农药top10，饼图显示的是全国样品农药残留量的分布情况。右侧提供各类图表的快速到达方式，包括所有农产品的汇总表、农产品分类树、农产品农药残留分布图等。</p>
+
+<p><img style="width:80%" src="./assets/img/posts/../../../../assets/img/posts/agricultureProducts/农产品7.png" alt="分类树形图" /><small>分类树形图</small></p>
+
+<p>&nbsp; &nbsp;&nbsp; &nbsp;<b>分类树界面</b>展示农产品的类目信息，并辅助表格，链接对应的农产品详情页</p>
+<p><img style="width:80%" src="./assets/img/posts/../../../../assets/img/posts/agricultureProducts/农产品3.png" alt="芒果的详情页" /><small>芒果的详情页</small></p>
+<p>&nbsp; &nbsp;&nbsp; &nbsp;<b>农产品详情页</b>呈现农产品基本信息，包括名称、类别、营养信息等，对于数据库中缺失图片的农产，使用通用图片，以提高用户体验。</p>
+
+<p>&nbsp; &nbsp;&nbsp; &nbsp;<b>相克相配两个页面</b>展示农产品之间的相克相配情况。以相克页面为例，在该页面中，用户选择点可看到与该农产品相克的所有农产品。图表添加了room属性，对于看不清的数据，用户也可直接在图上进行放大缩小和平移。该页面添加了搜索框功能，用户可在搜索框中直接搜索自己所关注的农产品，搜索多个农产品时，可用“;”隔开</p>
+
+<div style="display:flex">
+<img style="width:55%" src="./assets/img/posts/../../../../assets/img/posts/agricultureProducts/农产品8.png" alt="农产品的相克关系图" />
+<img style="width:38%" src="./assets/img/posts/../../../../assets/img/posts/agricultureProducts/农产品10.png" alt="白萝卜的相克关系图" />
+</div>
+
+<p>&nbsp; &nbsp;&nbsp; &nbsp;<b>残留农药溶解度分析界面</b>从数据库中得到的农药溶解度信息，是由易溶、可溶、微溶、难溶这四个溶解度等级，加上受热和遇碱两种情况组成的，不同的溶解度等级下是相应的溶剂。统计不同溶解情况的出现频次，利用旭日图展示多维度的信息，从而得出该农产品中检测出的所有残留农药的整体溶解情况，进行分析，并给予用户适当的清洗建议。</p>
+<p><img style="width:80%" src="./assets/img/posts/../../../../assets/img/posts/agricultureProducts/农产品9.png" alt="草莓样品残留农药整体溶解度分析图" /><small>草莓样品残留农药整体溶解度分析图</small></p>
+
+<h3 id="2-信息管理系统">2. 信息管理系统</h3>
+:ET

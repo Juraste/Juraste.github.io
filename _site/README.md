@@ -6,7 +6,9 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Header 1
+
 ## Header 2
+
 ### Header 3
 
 - Bulleted
@@ -25,3 +27,5 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Support or Contact
 Having trouble with Pages? Check out our documentation or contact support and we’ll help you sort it out.
+
+use `bundle exec jekyll -v` to run the website

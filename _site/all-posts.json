@@ -1,15 +1,9 @@
 {
   "posts" : [
     
-    "./recent-progress-and-trends-in-predictive-visual-analytics.html",
+    "./ModelLogVis.html",
     
-    "./deep-q-learning-tic-tac-toe.html",
-    
-    "./neural-network-optimization-methods.html",
-    
-    "./ML-Library-from-scratch.html",
-    
-    "./conways-game-of-life.html"
+    "./Agriculture.html"
     
   ]
 }

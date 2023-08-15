@@ -3,104 +3,50 @@
 [   
       
   {
-  "tag" : "artificial intelligence",
+  "tag" : ".NET",
   "posts" : [
       
-      "./deep-q-learning-tic-tac-toe.html"
+      "./Agriculture.html"
       
     ]
   } ,
     
       
   {
-  "tag" : "coding",
+  "tag" : "C#",
   "posts" : [
       
-      "./deep-q-learning-tic-tac-toe.html",
-      
-      "./neural-network-optimization-methods.html",
-      
-      "./ML-Library-from-scratch.html",
-      
-      "./conways-game-of-life.html"
+      "./Agriculture.html"
       
     ]
   } ,
     
       
   {
-  "tag" : "deep Neural networks",
+  "tag" : "React",
   "posts" : [
       
-      "./neural-network-optimization-methods.html"
+      "./ModelLogVis.html"
       
     ]
   } ,
     
       
   {
-  "tag" : "machine learning",
+  "tag" : "anomaly detection",
   "posts" : [
       
-      "./deep-q-learning-tic-tac-toe.html",
-      
-      "./neural-network-optimization-methods.html",
-      
-      "./ML-Library-from-scratch.html"
+      "./ModelLogVis.html"
       
     ]
   } ,
     
       
   {
-  "tag" : "neural networks",
+  "tag" : "log visualization",
   "posts" : [
       
-      "./ML-Library-from-scratch.html"
-      
-    ]
-  } ,
-    
-      
-  {
-  "tag" : "optimization",
-  "posts" : [
-      
-      "./neural-network-optimization-methods.html"
-      
-    ]
-  } ,
-    
-      
-  {
-  "tag" : "predict",
-  "posts" : [
-      
-      "./recent-progress-and-trends-in-predictive-visual-analytics.html"
-      
-    ]
-  } ,
-    
-      
-  {
-  "tag" : "python",
-  "posts" : [
-      
-      "./deep-q-learning-tic-tac-toe.html",
-      
-      "./ML-Library-from-scratch.html",
-      
-      "./conways-game-of-life.html"
-      
-    ]
-  } ,
-    
-      
-  {
-  "tag" : "reinforcement learning",
-  "posts" : [
-      
-      "./deep-q-learning-tic-tac-toe.html"
+      "./ModelLogVis.html"
       
     ]
   } ,
@@ -110,7 +56,9 @@
   "tag" : "visual analytics",
   "posts" : [
       
-      "./recent-progress-and-trends-in-predictive-visual-analytics.html"
+      "./ModelLogVis.html",
+      
+      "./Agriculture.html"
       
     ]
   } 
