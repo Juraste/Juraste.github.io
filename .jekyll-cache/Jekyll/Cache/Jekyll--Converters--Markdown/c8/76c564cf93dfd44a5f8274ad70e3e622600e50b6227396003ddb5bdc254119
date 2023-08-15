@@ -1,32 +1,21 @@
----
-layout: post
-read_time: true
-show_date: true
-title: 'ModelLogVis: 面向模型服务的日志异常可视分析方法'
-date: 2022-11-04 13:32:20 -0600
-description: 基于C#,.NET,WebService和Echarts实现的农产品信息可视化系统，将农产品基本信息和农药残留信息通过可视化图表展示，帮助用户快速获取知识和针对性的选择农产品.
-img: posts/modelLogvis/model3.png
-tags: [论文, visual analytics, log visualization, anomaly detection, React]
-author: Armando Maynez
----
-
-<div style="display:flex;margin-bottom:1em">
-<button style="margin-right:1em"><a href='https://www.jcad.cn/cn/article/id/680b218f-2b73-4754-9672-e843255624c2' style="text-decoration:none;">Cite</a></button>
+I"V<div style="display:flex;margin-bottom:1em">
+<button style="margin-right:1em"><a href="https://www.jcad.cn/cn/article/id/680b218f-2b73-4754-9672-e843255624c2" style="text-decoration:none;">Cite</a></button>
 <small>CCF 中文 A 类，二作</small>
 </div>
 
-<img src="./assets/img/posts/../../../../assets/img/posts/modelLogvis/model2.png"/><small>系统可视界面</small>
+<p><img src="./assets/img/posts/../../../../assets/img/posts/modelLogvis/model2.png" /><small>系统可视界面</small></p>
 
-## Abstract
+<h2 id="abstract">Abstract</h2>
 
 <p>&nbsp; &nbsp; &nbsp; &nbsp;Recently it is a hot topic to utilize massive log information of deep learning models for model optimization and troubleshooting. To address the challenge of model workflow analysis, we propose ModelLogVis, a visual analysis approach for diagnosing log abnormality in model services. Our approach employs a log anomaly detection method to locate the potential faults in the model workflow, guiding users to focus on the significant fault types.  Our integrated visual interface illustrates events of the workflow from multiple perspectives, including dataflow, status, instance performance, and original logs, and supports users to progressively analyze the faults in the workflow. Case studies of real datasets and expert interviews demonstrate that our approach is highly efficient in helping users quickly uncover anomalous information in logs.</p>
 
-<div style='border-left:0.5em solid #f0efed;padding:10px'>
- <span style='font-size:1.2em;font-weight:bolder'>技术栈：</span>
+<div style="border-left:0.5em solid #f0efed;padding:10px">
+ <span style="font-size:1.2em;font-weight:bolder">技术栈：</span>
  <span>React, React Hooks,TypeScript, Rematch, Echarts, d3, AntD, scss</span>
- <p style='font-size:1.2em;font-weight:bolder;margin-block-end:0.5em;margin-block-start:0.5em'>工作内容：</p>
-<ul style='font-size:1em;margin-block-end:0.5em;margin-block-start:0.5em'> 
+ <p style="font-size:1.2em;font-weight:bolder;margin-block-end:0.5em;margin-block-start:0.5em">工作内容：</p>
+<ul style="font-size:1em;margin-block-end:0.5em;margin-block-start:0.5em"> 
     <li> 前端开发，包括前端页面的ui开发和逻辑开发，并使用Rematch、React hooks实现图表间的数据流动与联动效应.</li>
     <li> 可视设计与开发，使用d3、AntD、Echarts设计开发可视化视图，包括多级环形树，工作流图，数据流图，性能视图等.</li>
     <li> 接入monaco编辑器，自定义匹配规则，实现日志数据关键词高亮与格式化.</li></ul>
 </div>
+:ET

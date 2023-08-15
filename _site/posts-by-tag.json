@@ -61,6 +61,16 @@
       "./Agriculture.html"
       
     ]
+  } ,
+    
+      
+  {
+  "tag" : "论文",
+  "posts" : [
+      
+      "./ModelLogVis.html"
+      
+    ]
   } 
     
 ]
