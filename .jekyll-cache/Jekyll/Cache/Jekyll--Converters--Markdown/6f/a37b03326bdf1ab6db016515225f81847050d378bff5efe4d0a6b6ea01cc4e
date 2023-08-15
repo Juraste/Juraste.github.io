@@ -1,0 +1,19 @@
+I"�<p><a>https://www.jcad.cn/cn/article/id/680b218f-2b73-4754-9672-e843255624c2</a></p>
+
+<div style="border-left:0.5em solid #f0efed;padding:10px">
+ <span style="font-size:1.2em;font-weight:bolder">技术栈：</span>
+ <span>React, React Hooks,TypeScript, Rematch, Echarts, d3, AntD, scss</span>
+ <p style="font-size:1.2em;font-weight:bolder;margin-block-end:0.5em;margin-block-start:0.5em">工作内容：</p>
+<ul style="font-size:1em;margin-block-end:0.5em;margin-block-start:0.5em"><li> 
+    <li> 前端开发，包括前端页面的ui开发和逻辑开发</li>
+    <li> 可视设计，包括系统的</li>
+    <li> 数据库设计与数据处理</li>&lt;/ul&gt;
+&lt;/div&gt;
+
+## Abstract
+
+<img src="./assets/img/posts/../../../../assets/img/posts/../../../_site/assets/img/posts/modelLogvis/model2.png" /><small>系统可视界面</small>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;Recently it is a hot topic to utilize massive log information of deep learning models for model optimization and troubleshooting. To address the challenge of model workflow analysis, we propose ModelLogVis, a visual analysis approach for diagnosing log abnormality in model services. Our approach employs a log anomaly detection method to locate the potential faults in the model workflow, guiding users to focus on the significant fault types.  Our integrated visual interface illustrates events of the workflow from multiple perspectives, including dataflow, status, instance performance, and original logs, and supports users to progressively analyze the faults in the workflow. Case studies of real datasets and expert interviews demonstrate that our approach is highly efficient in helping users quickly uncover anomalous information in logs.</p>
+</li></ul></div>
+:ET
